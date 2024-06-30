@@ -70,7 +70,7 @@ function StoreDetails() {
                         </div>
                         <div className='col-md-8 pt-5'>
                             <Typography variant="h4" component="h5">
-                                {storeDetails.storeName}
+                                <b>{storeDetails.storeName}</b>
                             </Typography>
                             <Typography className='mt-4' variant="h6" component="h6">
                                 {storeDetails.storeDesc}
@@ -92,8 +92,8 @@ function StoreDetails() {
                             <div className='row mt-2'>
                                 <div className='col-md-12'>
 
-                                    <div className='row'>
-                                        <div className='col-md-12 alignCenter'>
+                                    <div className='row alignCenter'>
+                                        <div className='col-md-12'>
                                             <Stack direction="row" spacing={1}>
                                                 <Chip className='chipSize' onClick={() => setCategory('coffee')} label="Coffee" variant={category === 'coffee' ? 'default' : 'outlined'} />
                                                 <Chip className='chipSize' onClick={() => setCategory('drinks')} label="Drinks" variant={category === 'drinks' ? 'default' : 'outlined'} />

@@ -53,3 +53,17 @@
     width: 200px;
     height: 50px !important;
 }
+
+@media (max-width: 991.98px) {
+
+    .head {
+        text-align: center;
+    }
+
+    .alignCenterForMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -81,7 +81,7 @@ function Store() {
 
             </div>
             <div className='row mb-5'>
-                <div className='col-md-3'>
+                <div className='col-md-3 alignCenterForMobile'>
                     <TextField
                         id="outlined-basic"
                         label="Store Name"

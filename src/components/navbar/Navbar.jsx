@@ -15,7 +15,7 @@ function Navbar() {
            <img onClick={() => navigate('/')} className='logo' src={coffee}></img>
         </div>
         <div className='col-md-8 alignCenter head'>
-          <h2>Find Coffee Shops and Cafes</h2>
+          <h2 className='mt-3'>Find Coffee Shops and Cafes</h2>
         </div>
         <div className='col-md-2'>
            
