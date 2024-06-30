@@ -28,7 +28,7 @@ function App() {
   
   }
 
-  // URL routes for the complete website
+  // URL routes for the website
   
   const router = createBrowserRouter([
     {
